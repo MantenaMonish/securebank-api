@@ -99,5 +99,4 @@ All database operations are executed via **stored procedures** to simulate enter
 ### Clone the repository
 
 ```bash
-git clone https://github.com/MantenaMonish/securebank-core-api.git
-cd securebank-core-api
+git clone https://github.com/MantenaMonish/securebank-api.git
