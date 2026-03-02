@@ -1,0 +1,20 @@
+# Build folders
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Secrets
+**/appsettings.Development.json
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
