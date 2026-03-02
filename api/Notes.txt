@@ -1,0 +1,17 @@
+Right now you're using SHA256 directly.
+
+For a real production banking system, you should use:
+
+-> BCrypt.Net.BCrypt.HashPassword(password);
+
+-> ASP.NET Identity’s built-in hasher.
+
+SHA256 alone is not ideal because:
+
+-> No salt
+
+-> Vulnerable to rainbow tables
+
+///
+->Need to adjust tables in ssms add admin(userid = 1) and user rows
+->update/combine/manage the auth endpoint/user registration
